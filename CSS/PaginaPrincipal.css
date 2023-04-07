@@ -1,0 +1,76 @@
+/* importo fuente de google */
+@import url('https://fonts.googleapis.com/css2? family= Bree+Serif & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Questrial & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Patua+One & display=swap');
+/* pequeña intro */
+#frase{
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#frase > p{
+    color: #b378e4;
+    font-family: "Bree Serif", sans-serif;
+    font-size: 3em;
+    margin: 40px 0px 10px 0px;
+
+}
+#frase > h3{
+    color: #b378e4;
+    font-family: "Questrial", sans-serif;
+    margin: 0.5px 0x;
+}
+
+
+/* seccion catalogo de productos*/
+section#catalogo{
+    text-align: center;
+    margin: 20px 0px;
+
+}
+/* producto */
+article{
+    display: inline-block;
+    width: 23%;
+    min-width: 200px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    margin: 20px 10px;
+    border: 4px #ff00d4 solid;
+}
+/* detalles del producto*/
+article >h2 {
+    font-family: 'Patua One', sans-serif;
+    font-weight: bold;
+    color: #d21eff;
+}
+/* cambiar productos */
+.img-product{
+    width: 80%;
+    height: auto;
+}
+/* precio */
+.precioOriginal{
+    font-size: 1.5em;
+    color: #696969;
+    text-decoration: line-through;
+}
+.descuento{
+    font-size: 1.5em;
+    color: black;
+    font-weight: bold;
+}
+.precioFinal{
+    font-size: 2.0em;
+    color: rgb(255, 4, 213);
+    font-weight: bold;
+}
+/* boton para el carrito */
+article > button {
+    padding: 10px 20px;
+    background-color: #038bb4;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+}

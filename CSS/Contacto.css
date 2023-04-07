@@ -1,0 +1,87 @@
+/* importo fuente de google */
+@import url('https://fonts.googleapis.com/css2? family= Patua+One & display=swap');
+
+
+/* secciones */
+main{
+     vertical-align: middle;
+     padding: 30px;
+     text-align: center;
+}
+#formContacto{
+    width: 35%;
+    min-width: 260px;
+    display: inline-block;
+    padding: 10px 50px ;
+    margin: 0px;
+    text-align: left;
+
+}
+#logo{
+    text-align: center;
+   
+}
+
+#ubicanos{
+    width:40%;
+    min-width: 260px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 50px ;
+}
+#ubicanos >p {
+    font-family:"Patua One", sans-serif;
+    color: #b378e4;
+    font-weight: bold;
+}
+/* seccion formulario */
+label{
+    display: block;
+    padding: 4px 0px;
+    margin-top: 10px;
+    font-family:"Patua One", sans-serif;
+    color: #b378e4;
+    font-weight: bold;
+    text-align: left;
+}
+input{
+    width: 100%;
+    height: 2em;
+    font-size: 16px;
+    padding: 0px 20px;
+    text-align: left;
+    background-color: #fa72f3;
+    color: #ffffff;
+    border:2px #fa00ed solid;
+}
+#optAsunto{
+    width: 100%;
+    height: 2em;
+    font-size: 16px;
+    padding: 0px 10px;
+    background-color: #fa72f3;
+    color: #ffffff;
+    border:2px #fa00ed solid;
+}
+textarea{
+    background-color: #fa72f3;
+    color: #ffffff;
+    border:2px #fa00ed solid;
+}
+input[type="submit"]{
+    background-color: #3cc7da;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 40px;
+    width: auto;
+    margin-top: 14px;  
+    border:2px #01425c solid;
+}
+input#bolAutorizo{
+    width: 20px;
+    margin: 0px 10px 0px 0px;
+    background-color: #fa72f3;
+    color: #ffffff;
+    
+}

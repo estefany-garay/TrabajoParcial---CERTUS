@@ -1,0 +1,105 @@
+/* importo fuente de google */
+
+ @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+ @import url('https://fonts.googleapis.com/css2? family= Patua+One & display=swap');
+
+/* general */
+body{
+    padding: 0px;
+    margin: 0px;
+}
+/* encabezado */
+#instagram {
+    width: 40px;
+    display: inline-block;
+    padding: 0px;
+    top:  0px;
+}
+#facebook {
+    width: 40px;
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+    top: 0px;
+
+
+}
+header{
+    padding: 20px 30px 60px 30px ;
+    background-color: #ff7dd4;
+    background-image: url(../IMG-RECURSOS/fondo4.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+header > h1{
+    color: #ff0cc2;
+    text-shadow: #ffffff 3px 3px;
+    font-family:"Pacifico", sans-serif;
+    padding: 20px 0px 20px 0px;
+    font-size: 4em;
+    margin: 0px;
+    text-align: center;
+}
+
+/* BARRA DE SEPARACION */
+#Barra{
+    background: #f862c6;
+    padding: 15px;
+    margin: 0px;
+}
+/* barra de navegacion */
+#navegacion {
+    padding: 0px;
+    text-align: center;
+    background-color: #3cc7da;
+    margin: 0px;
+}
+
+#navegacion > li{
+    border-radius: 10px;
+    font-size: 1em;
+    font-family: sans-serif;
+    display: inline-block;
+    padding: 20px 20px;
+}
+#navegacion >li:hover{
+    background-color: #0193ad;
+    width: 120px; 
+    height: auto;
+}
+
+
+#navegacion >li > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* contenido principal */
+main{
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+/* chat de whatsapp */
+#chatWhatsapp {
+    width: 40px;
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+/* pie de pagina */
+footer{
+    background-image: url(../IMG-RECURSOS/fondo4.jpg);
+    color: #ff02c0;
+    font-family:"Patua One", sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    font-size: 1em;
+}
